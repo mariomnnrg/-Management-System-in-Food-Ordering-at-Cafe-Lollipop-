@@ -1,0 +1,14 @@
+1. Download ZIP
+2. Extract ke dalam drive C
+3. buka solution pada VisStudio 2022
+4. Klik menu tools
+5. pilih Nuget Package Manager
+6. Pilih Package Manager Console
+7. Jalan kan perintah Update-Database pada consol PM>
+8. Run (Jalankan Project)
+
+9. Login
+akun admin
+usrname/email : admin@dotnet.com
+password : Admin@123*
+

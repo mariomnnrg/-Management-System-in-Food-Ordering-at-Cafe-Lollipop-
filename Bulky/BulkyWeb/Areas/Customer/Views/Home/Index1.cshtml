@@ -1,0 +1,43 @@
+﻿<!-- _CarouselPartial.cshtml -->
+<style>
+    /* Set tinggi carousel */
+    #carouselExampleControls {
+        max-height: 300px; /* Sesuaikan tinggi sesuai kebutuhan */
+        overflow: hidden; /* Untuk menghindari overflow jika gambar lebih besar */
+    }
+
+        /* Set tinggi gambar agar selalu mengisi carousel */
+        #carouselExampleControls img {
+            height: 10%; /* Gambar mengisi tinggi carousel */
+            width: 20%; /* Lebar gambar menyesuaikan dengan tinggi */
+            object-fit:contain; /* Gambar diatur untuk mengisi area yang tersedia */
+        }
+</style>
+
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="~/images/pngwing.com.png" class="d-block w-100" alt="First slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Title for Slide 1</h5>
+                <p>Description for Slide 1</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="~/images/lawn_leaf.jpg" class="d-block w-100" alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+                <h5>Title for Slide 2</h5>
+                <p>Description for Slide 2</p>
+            </div>
+        </div>
+        <!-- Add more carousel items as needed -->
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
